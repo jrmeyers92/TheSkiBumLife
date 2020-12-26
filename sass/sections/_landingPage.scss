@@ -1,0 +1,36 @@
+.landing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 85vh;
+	background-image: linear-gradient(
+			to right bottom,
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.8)
+		),
+		url("../../photos/LandingPage-small.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	@media (min-resolution: 192dpi) and (min-width: 600px) {
+		background-image: linear-gradient(
+				to right bottom,
+				rgba(0, 0, 0, 0.3),
+				rgba(0, 0, 0, 0.8)
+			),
+			url(../../photos/LandingPage-large.jpg);
+	}
+
+	&__headers {
+		margin-top: -10rem;
+	}
+
+	&__header-primary {
+		color: #f9f9f9;
+	}
+
+	&__header-secondary {
+		color: #f9f9f9;
+	}
+}

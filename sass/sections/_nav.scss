@@ -1,0 +1,25 @@
+.nav {
+	height: 15vh;
+	background-color: #333;
+	font-size: 1.6rem;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+
+	&__list {
+		display: flex;
+		flex-direction: row;
+		color: white;
+	}
+
+	&__item {
+		list-style-type: none;
+		margin: 1rem;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: white;
+		padding: 0.4rem;
+	}
+}

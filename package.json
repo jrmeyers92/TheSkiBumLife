@@ -1,34 +1,37 @@
 {
-  "name": "theskibumlife",
-  "version": "1.0.0",
-  "description": "a blog of all ski bums",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "ski",
-    "ski",
-    "bum",
-    "ski",
-    "lifestyle",
-    "gear",
-    "shred",
-    "gnar",
-    "pow",
-    "ski",
-    "town",
-    "skiing",
-    "snowboarding",
-    "backcountry",
-    "skiing",
-    "rafting",
-    "mountain",
-    "biking",
-    "mountains",
-    "ski",
-    "towns"
-  ],
-  "author": "Jake Meyers",
-  "license": "ISC"
+	"name": "theskibumlife",
+	"version": "1.0.0",
+	"description": "a blog of all ski bums",
+	"main": "script.js",
+	"scripts": {
+		"start": "node-sass sass/main.scss css/style.css -w"
+	},
+	"keywords": [
+		"ski",
+		"ski",
+		"bum",
+		"ski",
+		"lifestyle",
+		"gear",
+		"shred",
+		"gnar",
+		"pow",
+		"ski",
+		"town",
+		"skiing",
+		"snowboarding",
+		"backcountry",
+		"skiing",
+		"rafting",
+		"mountain",
+		"biking",
+		"mountains",
+		"ski",
+		"towns"
+	],
+	"author": "Jake Meyers",
+	"license": "ISC",
+	"dependencies": {
+		"node-sass": "^5.0.0"
+	}
 }
