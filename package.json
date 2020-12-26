@@ -1,0 +1,34 @@
+{
+  "name": "theskibumlife",
+  "version": "1.0.0",
+  "description": "a blog of all ski bums",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ski",
+    "ski",
+    "bum",
+    "ski",
+    "lifestyle",
+    "gear",
+    "shred",
+    "gnar",
+    "pow",
+    "ski",
+    "town",
+    "skiing",
+    "snowboarding",
+    "backcountry",
+    "skiing",
+    "rafting",
+    "mountain",
+    "biking",
+    "mountains",
+    "ski",
+    "towns"
+  ],
+  "author": "Jake Meyers",
+  "license": "ISC"
+}
