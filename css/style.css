@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
-.header__primary {
-  font-size: 5rem;
-  letter-spacing: 0.1rem;
-  font-family: "Cedarville Cursive", cursive; }
-
-.header__secondary {
-  font-size: 2.3rem;
-  font-family: "Cedarville Cursive", cursive;
-  margin-top: -1rem; }
-
 *,
 *::before,
 *::after {
@@ -19,6 +9,33 @@
 body {
   font-size: 62.5%;
   font-family: "Lato", sans-serif; }
+
+.header {
+  text-align: center; }
+  .header__primary {
+    font-size: 5rem;
+    letter-spacing: 0.1rem; }
+  .header__secondary {
+    font-size: 2.3rem; }
+  .header__section {
+    margin: 2rem 0; }
+
+.para {
+  font-size: 1.6rem;
+  margin: 1rem 10rem;
+  line-height: 2rem;
+  text-align: left;
+  letter-spacing: 0.05px; }
+
+.about {
+  background-color: #f9f9f9; }
+  .about__photo {
+    width: 400px;
+    height: auto;
+    float: left;
+    margin: 1rem 2rem 2rem 10rem;
+    border-radius: 3px;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1); }
 
 .landing {
   display: flex;
@@ -34,11 +51,16 @@ body {
     .landing {
       background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../../photos/LandingPage-large.jpg); } }
   .landing__headers {
-    margin-top: -10rem; }
+    margin-top: -10rem;
+    font-family: "Cedarville Cursive", cursive; }
   .landing__header-primary {
     color: #f9f9f9; }
   .landing__header-secondary {
-    color: #f9f9f9; }
+    color: #f9f9f9;
+    align-self: flex-start;
+    justify-self: flex-start;
+    text-align: left;
+    margin-top: -2rem; }
 
 .nav {
   height: 15vh;

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
 .landing {
 	display: flex;
 	flex-direction: column;
@@ -24,6 +26,7 @@
 
 	&__headers {
 		margin-top: -10rem;
+		font-family: "Cedarville Cursive", cursive;
 	}
 
 	&__header-primary {
@@ -32,5 +35,9 @@
 
 	&__header-secondary {
 		color: #f9f9f9;
+		align-self: flex-start;
+		justify-self: flex-start;
+		text-align: left;
+		margin-top: -2rem;
 	}
 }

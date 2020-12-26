@@ -1,0 +1,23 @@
+.header {
+	text-align: center;
+	&__primary {
+		font-size: 5rem;
+		letter-spacing: 0.1rem;
+	}
+
+	&__secondary {
+		font-size: 2.3rem;
+	}
+
+	&__section {
+		margin: 2rem 0;
+	}
+}
+
+.para {
+	font-size: 1.6rem;
+	margin: 1rem 10rem;
+	line-height: 2rem;
+	text-align: left;
+	letter-spacing: 0.05px;
+}
